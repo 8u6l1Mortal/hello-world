@@ -64,5 +64,6 @@ $(function () {
         // var dom = $('<tr align="center"><td><input class="check" type="checkbox"></td><td>' + item.id + '</td><td>' + item.name + '</td><td class="img"><img src=' + item.pic + '" style="width:70px;height:70px;" alt=""></td><td class="price">' + item.price + '</td><td class="num"><span class="reduce">-</span><input value="1" type="text"><span class="add">+</span></td><td class="account">' + item.price + '</td><td><button class="del">删除</button></td></tr><tr><td colspan="8" align="center">暂无商品信息</td></tr>')
         // var tbody = $('tbody')
         // tbody.append(dom)
+        // console.log('anlanbupang')
     }
 })
