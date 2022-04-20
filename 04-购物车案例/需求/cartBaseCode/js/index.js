@@ -36,7 +36,28 @@ $(function () {
 
     for (var i = 0; i < cartList.length; i++) {
         var li = cartList[i]
-        for (var k in li) {
-        }
+        // li为每一项数据
+        console.log(li)
+        // 生成tr
+        var tr = document.createElement('tr')
+        tr.setAttribute('align', 'center')
+        // 生成复选框
+        var inputTd = document.createElement('td')
+        var input = document.createElement('input')
+        input.setAttribute('type', 'checkbox')
+        $(input).addClass('check')
+        inputTd.append(input)
+        // 复选框放入tr
+        tr.append(inputTd)
+        // 生成序号td
+        var countTd = document.createElement('td')
+        // 取序号数据
+        countTd.innerHTML = li.id
+        // 序号放入tr
+        tr.append(countTd)
+        console.log(tr)
+        // 将tr放入tbody
+        var dom = $('tbody')
+        dom.append(tr)
     }
 })
