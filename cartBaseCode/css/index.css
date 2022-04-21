@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  color: orange;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+.table thead {
+  background-color: #eee;
+}
+
+.table tfoot {
+  background-color: #fafafa;
+}
+
+.num {
+  font-size: 0;
+}
+
+.num span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  background-color: #dedede;
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+.num input {
+  width: 30px;
+  height: 26px;
+  outline: none;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #dedede;
+}
+
+thead {
+  line-height: 40px;
+}
+
+tfoot span {
+  line-height: 36px;
+}
+
+tfoot span i {
+  font-style: normal;
+}
+
+tfoot .buy {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  background-color: orange;
+  color: #fff;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
